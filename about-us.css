@@ -1,0 +1,45 @@
+body {
+	max-width: auto;
+	margin: 20px ;
+	background-color: #18191B;
+	background-image: url(https://steamuserimages-a.akamaihd.net/ugc/963107882071950892/F5C6F71D54A20087B9EB2585BE3852651C33703C/?imw=512&amp;imh=254&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true);
+	font-size: .9em;
+	color: white;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 1px;
+	background-color: black;
+	color: white;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;	
+}
+nav li {
+	display: inline;	
+}
+nav a {
+	display: inline-block;
+	padding: 9px 20px 5px 20px;
+	border-radius:20px;
+	text-decoration: none;	
+	font-family: Titillium, Arial, sans-serif;
+	font-weight: 700;
+	color: white;
+	text-shadow: 2px 2px 4px rgba(0,0,0,1);
+	text-transform:uppercase;
+	font-size: .9em;
+	letter-spacing: .1em;
+	background-color: rgb(232,113,35);
+	background: -webkit-linear-gradient(top, rgba(232,113,35,1),rgba(232,113,35,.5));
+	background: -moz-linear-gradient(top, rgba(232,113,35,1),rgba(232,113,35,.5));
+	background: -o-linear-gradient(top, rgba(232,113,35,1),rgba(232,113,35,.5));
+	background: linear-gradient(top, rgba(232,113,35,1),rgba(232,113,35,.5));
+	border: 1px solid rgb(232,113,35);
+	margin-right: 5px;
+}
